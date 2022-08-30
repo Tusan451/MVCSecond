@@ -9,12 +9,12 @@ import Foundation
 import UIKit
 
 class Restaurant: NSObject {
-    let name: String
-    let rating: String
-    let cost: String
-    let address: String
-    let image: UIImage
-    let info: String
+    var name: String
+    var rating: String
+    var cost: String
+    var address: String
+    var image: UIImage
+    var info: String
     
     init(name: String, rating: String, cost: String, address: String, image: UIImage, info: String) {
         self.name = name

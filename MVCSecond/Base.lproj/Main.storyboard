@@ -11,7 +11,7 @@
         <!--Рестораны-->
         <scene sceneID="bHE-PQ-zV8">
             <objects>
-                <tableViewController id="ziY-C9-kqz" sceneMemberID="viewController">
+                <tableViewController storyboardIdentifier="MainTableViewController" id="ziY-C9-kqz" customClass="MainTableViewController" customModule="MVCSecond" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="7pT-m2-7D8">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

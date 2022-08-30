@@ -11,6 +11,10 @@ import UIKit
 class ModelRestaurant {
     var restaurants = [Restaurant]()
     
+    init() {
+        setupRestaurants()
+    }
+    
     func setupRestaurants() {
         let firstRestaurant =
         Restaurant(name: "Баренц",
