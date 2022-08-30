@@ -149,7 +149,7 @@
                                 <color key="textColor" systemColor="systemYellowColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Описание ресторана Описание ресторана " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vfA-aA-2zS">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Описание ресторана Описание ресторана " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="10" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vfA-aA-2zS">
                                 <rect key="frame" x="20" y="551" width="374" height="19.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <nil key="textColor"/>
@@ -185,18 +185,12 @@
                     </view>
                     <navigationItem key="navigationItem" title="Ресторан" id="S7r-D6-BNl"/>
                     <connections>
-                        <outlet property="restaurantAddress" destination="0Kq-9c-YTP" id="8j5-HU-rsV"/>
-                        <outlet property="restaurantCost" destination="wph-zZ-OGi" id="mgT-Gb-PBA"/>
                         <outlet property="restaurantDetailAddress" destination="0Kq-9c-YTP" id="rgJ-9h-eP6"/>
                         <outlet property="restaurantDetailCost" destination="wph-zZ-OGi" id="O2B-rv-oPg"/>
                         <outlet property="restaurantDetailImage" destination="WtV-Bs-Ycg" id="Z2c-sn-Z5Y"/>
                         <outlet property="restaurantDetailInfo" destination="vfA-aA-2zS" id="h5d-9j-NwZ"/>
                         <outlet property="restaurantDetailName" destination="xic-Ku-nex" id="Sgt-WE-XTO"/>
                         <outlet property="restaurantDetailRating" destination="whU-Bm-PMY" id="e4d-K6-N9h"/>
-                        <outlet property="restaurantImage" destination="WtV-Bs-Ycg" id="Ce8-KE-zfr"/>
-                        <outlet property="restaurantInfo" destination="vfA-aA-2zS" id="Cji-pQ-FQ7"/>
-                        <outlet property="restaurantName" destination="xic-Ku-nex" id="oOv-vM-KPG"/>
-                        <outlet property="restaurantRating" destination="whU-Bm-PMY" id="pEa-Hu-tPR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DqS-Lr-YkU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

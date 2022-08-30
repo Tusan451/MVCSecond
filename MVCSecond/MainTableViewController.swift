@@ -11,6 +11,7 @@ class MainTableViewController: UITableViewController {
 
     let cellId = "RestaurantCell"
     let modelRestaurant = ModelRestaurant()
+    var detailRestaurant: Restaurant?
 
     // MARK: - Table view data source
 
@@ -40,8 +41,11 @@ class MainTableViewController: UITableViewController {
 
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         guard segue.identifier == "goDetail" else { return }
+        guard let indexPath = tableView.indexPathForSelectedRow else { return }
+        
+        let restaurant = modelRestaurant.restaurants[indexPath.row]
         let restaurantVC = segue.destination as! DetailViewController
         
-        
+        restaurantVC.restaurant = restaurant
     }
 }
