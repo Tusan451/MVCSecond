@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="RestaurantCell" rowHeight="150" id="VEJ-hW-3kI">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="RestaurantCell" rowHeight="150" id="VEJ-hW-3kI" customClass="RestaurantTableViewCell" customModule="MVCSecond" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="44.5" width="414" height="150"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="VEJ-hW-3kI" id="xtL-Z1-c6y">
@@ -73,6 +73,13 @@
                                         <constraint firstAttribute="trailing" secondItem="qp4-gR-keW" secondAttribute="trailing" constant="20" symbolic="YES" id="yxg-qt-Uy2"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="restaurantAddress" destination="RAh-Cw-Ee7" id="bQm-Gt-oq0"/>
+                                    <outlet property="restaurantCost" destination="zjd-Ge-xh5" id="01K-Of-Gjm"/>
+                                    <outlet property="restaurantImage" destination="FCS-Is-MYR" id="BcA-I7-kcI"/>
+                                    <outlet property="restaurantName" destination="U5j-iF-Wwu" id="I74-QJ-mIZ"/>
+                                    <outlet property="restaurantRating" destination="qp4-gR-keW" id="r5i-6z-HY0"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
