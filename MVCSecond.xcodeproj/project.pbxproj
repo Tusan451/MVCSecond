@@ -13,6 +13,7 @@
 		E0CD2F8228BE11260077FF71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0CD2F8128BE11260077FF71 /* Assets.xcassets */; };
 		E0CD2F8528BE11260077FF71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0CD2F8328BE11260077FF71 /* LaunchScreen.storyboard */; };
 		E0CD2F8D28BE11B60077FF71 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CD2F8C28BE11B60077FF71 /* MainTableViewController.swift */; };
+		E0CD2F8F28BE155A0077FF71 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CD2F8E28BE155A0077FF71 /* Restaurant.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E0CD2F8428BE11260077FF71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E0CD2F8628BE11260077FF71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E0CD2F8C28BE11B60077FF71 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		E0CD2F8E28BE155A0077FF71 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				E0CD2F8128BE11260077FF71 /* Assets.xcassets */,
 				E0CD2F8328BE11260077FF71 /* LaunchScreen.storyboard */,
 				E0CD2F8628BE11260077FF71 /* Info.plist */,
+				E0CD2F8E28BE155A0077FF71 /* Restaurant.swift */,
 			);
 			path = MVCSecond;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0CD2F8F28BE155A0077FF71 /* Restaurant.swift in Sources */,
 				E0CD2F7928BE11240077FF71 /* AppDelegate.swift in Sources */,
 				E0CD2F8D28BE11B60077FF71 /* MainTableViewController.swift in Sources */,
 				E0CD2F7B28BE11240077FF71 /* SceneDelegate.swift in Sources */,
