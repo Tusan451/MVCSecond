@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E0502CAE28BE653200E2362E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0502CAD28BE653200E2362E /* DetailViewController.swift */; };
+		E0A84C7328BF67E4005E3748 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E0CD2F8628BE11260077FF71 /* Info.plist */; };
 		E0CD2F7928BE11240077FF71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CD2F7828BE11240077FF71 /* AppDelegate.swift */; };
 		E0CD2F7B28BE11240077FF71 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0CD2F7A28BE11240077FF71 /* SceneDelegate.swift */; };
 		E0CD2F8028BE11240077FF71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0CD2F7E28BE11240077FF71 /* Main.storyboard */; };
@@ -45,6 +46,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E0A84C6B28BF5B98005E3748 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				E0CD2F7828BE11240077FF71 /* AppDelegate.swift */,
+				E0CD2F7A28BE11240077FF71 /* SceneDelegate.swift */,
+				E0CD2F8628BE11260077FF71 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		E0A84C6C28BF5CF2005E3748 /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				E0CD2F8128BE11260077FF71 /* Assets.xcassets */,
+			);
+			path = Resourses;
+			sourceTree = "<group>";
+		};
+		E0A84C6E28BF5D46005E3748 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E0CD2F8C28BE11B60077FF71 /* MainTableViewController.swift */,
+				E0502CAD28BE653200E2362E /* DetailViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		E0A84C6F28BF5D55005E3748 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E0CD2F8E28BE155A0077FF71 /* Restaurant.swift */,
+				E0CD2F9028BE164C0077FF71 /* ModelRestaurant.swift */,
+				E0CD2F9228BE172A0077FF71 /* RestaurantTableViewCell.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E0A84C7428BF6832005E3748 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				E0CD2F7E28BE11240077FF71 /* Main.storyboard */,
+				E0CD2F8328BE11260077FF71 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
 		E0CD2F6C28BE11240077FF71 = {
 			isa = PBXGroup;
 			children = (
@@ -64,17 +111,11 @@
 		E0CD2F7728BE11240077FF71 /* MVCSecond */ = {
 			isa = PBXGroup;
 			children = (
-				E0CD2F7828BE11240077FF71 /* AppDelegate.swift */,
-				E0CD2F7A28BE11240077FF71 /* SceneDelegate.swift */,
-				E0CD2F8C28BE11B60077FF71 /* MainTableViewController.swift */,
-				E0CD2F7E28BE11240077FF71 /* Main.storyboard */,
-				E0CD2F8128BE11260077FF71 /* Assets.xcassets */,
-				E0CD2F8328BE11260077FF71 /* LaunchScreen.storyboard */,
-				E0CD2F8628BE11260077FF71 /* Info.plist */,
-				E0CD2F8E28BE155A0077FF71 /* Restaurant.swift */,
-				E0CD2F9028BE164C0077FF71 /* ModelRestaurant.swift */,
-				E0CD2F9228BE172A0077FF71 /* RestaurantTableViewCell.swift */,
-				E0502CAD28BE653200E2362E /* DetailViewController.swift */,
+				E0A84C7428BF6832005E3748 /* StoryBoards */,
+				E0A84C6B28BF5B98005E3748 /* App */,
+				E0A84C6E28BF5D46005E3748 /* View Controllers */,
+				E0A84C6C28BF5CF2005E3748 /* Resourses */,
+				E0A84C6F28BF5D55005E3748 /* Models */,
 			);
 			path = MVCSecond;
 			sourceTree = "<group>";
@@ -137,6 +178,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0A84C7328BF67E4005E3748 /* Info.plist in Resources */,
 				E0CD2F8528BE11260077FF71 /* LaunchScreen.storyboard in Resources */,
 				E0CD2F8228BE11260077FF71 /* Assets.xcassets in Resources */,
 				E0CD2F8028BE11240077FF71 /* Main.storyboard in Resources */,
@@ -307,7 +349,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 34J2M9FNPA;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MVCSecond/Info.plist;
+				INFOPLIST_FILE = MVCSecond/app/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -336,7 +378,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 34J2M9FNPA;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MVCSecond/Info.plist;
+				INFOPLIST_FILE = MVCSecond/app/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
